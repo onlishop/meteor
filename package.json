@@ -1,0 +1,22 @@
+{
+  "name": "meteor",
+  "version": "0.0.0",
+  "private": true,
+  "description": "The monorepo that contains all Meteor related projects",
+  "keywords": [],
+  "license": "MIT",
+  "scripts": {
+    "validate:changesets": "node scripts/validate-changesets.js"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "packageManager": "pnpm@10.12.3",
+  "volta": {
+    "node": "22.13.0",
+    "pnpm": "10.12.3"
+  }
+}
