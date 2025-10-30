@@ -15,7 +15,7 @@
   "dependencies": {
     "@onlishop/meteor-component-library": "workspace:*",
     "nuxt": "^3.10.3",
-    "vue": "^3.5.0",
+    "vue": "^3.5.22",
     "vue-router": "^4.3.0",
     "vue-i18n": "^9.9.1"
   },
