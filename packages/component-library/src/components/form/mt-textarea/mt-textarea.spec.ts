@@ -132,8 +132,8 @@ describe("mt-textarea", () => {
     await userEvent.type(screen.getByRole("textbox"), "Onlishop");
 
     // ASSERT
-    expect(screen.getByRole("textbox")).toHaveValue("Shop");
-    expect(handler).toHaveBeenNthCalledWith(4, "Shop");
+    expect(screen.getByRole("textbox")).toHaveValue("Onli");
+    expect(handler).toHaveBeenNthCalledWith(4, "Onli");
   });
 
   it("can be a required field", async () => {
